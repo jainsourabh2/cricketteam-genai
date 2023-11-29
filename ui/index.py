@@ -9,7 +9,7 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 import requests
 
-api_url = "http://34.31.209.57:5000/genai"
+api_url = "http://x.x.x.x:5000/genai"
 # prompt = {"prompt":"Generate a fantasy cricket team for the upcoming odi match between India vs Australia for male players. My budget is 100 credits, and I need to select 11 players, including criteria for player selection, e.g., a minimum number of batsmen, bowlers, all-rounders, and wicket-keepers."}
 
 st.set_page_config(page_title="Cricket Team Generator",page_icon=":tada:",layout="wide")
